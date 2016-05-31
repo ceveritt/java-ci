@@ -11,5 +11,10 @@ public class ExampleTest {
 		Example e =  new Example();
 		assertTrue(e.stringReverse("hello world!").equals("!dlrow olleh"));
 	}
+	@Test
+	public void testStringReverseHandlesNull() {
+		Example e =  new Example();
+		assertTrue(e.stringReverse(null) == null);
+	}
 
 }
