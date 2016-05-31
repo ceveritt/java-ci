@@ -1,3 +1,4 @@
 # java-ci
 messing around with ci
-https://travis-ci.org/ceveritt/java-ci.svg?branch=master
+
+[![Build Status](https://travis-ci.org/ceveritt/java-ci.svg?branch=master)](https://travis-ci.org/ceveritt/java-ci.svg?branch=master)
