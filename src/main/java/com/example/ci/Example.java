@@ -28,7 +28,7 @@ public class Example {
 		StringBuffer sb = new StringBuffer(sentence.length());
 		for (String word : words) {
 			if (word.length() > 2) {
-				List<Character> chars = new ArrayList<>();
+				List<Character> chars = new ArrayList<Character>();
 				for (char c : word.substring(1, word.length() - 1).toCharArray()) {
 					chars.add(c);
 				}
